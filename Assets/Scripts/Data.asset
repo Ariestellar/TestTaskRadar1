@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cde3c5b93d58ed4c87499b0b5123b18, type: 3}
+  m_Name: Data
+  m_EditorClassIdentifier: 
+  levelsSpeedGames:
+  - Name: Level1
+    countScoreForActivation: 10
+    increaseSpeed: 1.5
+  - Name: Level2
+    countScoreForActivation: 25
+    increaseSpeed: 2
+  - Name: Level3
+    countScoreForActivation: 50
+    increaseSpeed: 3
+  - Name: Level4
+    countScoreForActivation: 100
+    increaseSpeed: 4
+  countStartLife: 3
+  startSpeed: 5
